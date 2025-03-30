@@ -1,8 +1,15 @@
 # VRSifier Docker Image
 
+[Link to docker hub](https://hub.docker.com/repository/docker/david4096/vrsifier/general)
+
 This Docker image provides a containerized environment for running the `vrs-annotate` tool from the GA4GH VRS project. It allows users to annotate VCF files using the VRS annotation system.
 
 ## Usage
+
+```
+# Pull the VRSifier Docker image
+docker pull david4096/vrsifier:latest
+```
 
 To run the container, use the following command:
 
